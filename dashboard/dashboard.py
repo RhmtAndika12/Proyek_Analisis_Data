@@ -5,21 +5,13 @@ import matplotlib.pyplot as plt
 import requests
 
 def main():
-    # URL raw file CSV di repositori GitHub
-    url = 'https://github.com/RhmtAndika12/Proyek_Analisis_Data/blob/main/dashboard/all_data.csv'
+    st.title('Dashboard Analisis Sewa Sepeda')
+    st.text('Made by Rahmat Yuli Andika')
 
-    # Mengambil data dari URL
-    response = requests.get(url)
+    # Membaca data dari file CSV
+    file_path = ';/dashboard/all_data.csv'
+    bike_sharing = pd.read_csv(file_path)
 
-    # Membaca data CSV jika permintaan berhasil
-    if response.status_code == 200:
-        data = pd.read_csv(url)
-        print(data.head())  # Melihat beberapa baris pertama data
-    else:
-        print('Gagal mengambil data. Kode status:', response.status_code)
-
-if __name__ == "__main__":
-    main()
 
     st.markdown("""
     ## Pola Jumlah Sewa Sepeda Harian Berdasarkan Bulan
