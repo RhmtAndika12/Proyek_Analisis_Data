@@ -2,16 +2,14 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import requests
 
 def main():
     st.title('Dashboard Analisis Sewa Sepeda')
     st.text('Made by Rahmat Yuli Andika')
 
     # Membaca data dari file CSV
-    file_path = '/dashboard/all_data.csv'
+    file_path = 'all_data.csv'
     bike_sharing = pd.read_csv(file_path)
-
 
     st.markdown("""
     ## Pola Jumlah Sewa Sepeda Harian Berdasarkan Bulan
@@ -38,7 +36,7 @@ def main():
     plt.title("Perbedaan Antara Hari Kerja dan Hari Libur dalam Jumlah Sewa Sepeda Harian")
     plt.xlabel("Workingday")
     plt.ylabel("Jumlah Sewa Sepeda Harian")
-    st.pyplot()
+    st.pyplot(fig)
 
     st.markdown("""
     ### Conclusion
