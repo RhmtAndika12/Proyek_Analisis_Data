@@ -8,7 +8,7 @@ def main():
     st.text('Made by Rahmat Yuli Andika')
 
     # Membaca data dari file CSV
-    file_path = 'all_data.csv'  # Ganti 'nama_file.csv' dengan nama file Anda
+    file_path = 'all_data.csv' 
     bike_sharing = pd.read_csv(file_path)
 
     st.markdown("""
