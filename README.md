@@ -18,5 +18,6 @@ Ini adalah dashboard analisis sewa sepeda yang dibuat oleh Rahmat Yuli Andika me
 
 ### Cara Menggunakan
 1. Pastikan Anda memiliki semua library yang diperlukan terinstall.
-2. Jalankan kode menggunakan Python.
-3. Dashboard akan ditampilkan dalam browser.
+2. Jalankan kode menggunakan Python dengan kode :
+  >  streamlit run dashboard.py
+4. Dashboard akan ditampilkan dalam browser.
