@@ -8,8 +8,11 @@ def main():
     st.text('Made by Rahmat Yuli Andika')
 
     # Membaca data dari file CSV
-    file_path = 'https://github.com/RhmtAndika12/Proyek_Analisis_Data/blob/main/dashboard/all_data.csv' 
-    bike_sharing = pd.read_csv(file_path)
+    url = 'https://raw.githubusercontent.com/nama_pengguna/nama_repositori/nama_branch/nama_file.csv'
+
+    # Mengambil data dari URL
+    response = requests.get(url)
+    bike_sharing = pd.read_csv(url)
 
     st.markdown("""
     ## Pola Jumlah Sewa Sepeda Harian Berdasarkan Bulan
