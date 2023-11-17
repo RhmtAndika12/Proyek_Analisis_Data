@@ -4,10 +4,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 def main():
-    st.title('Dashboard Interaktif Rahmat Yuli Andika')
-
+    st.title('Dashboard Sederhana')
+    st.text('made by Rahmat Yuli Andika')
+    
     # Membaca data dari file CSV
-    file_path = 'all_data.csv' 
+    file_path = 'https://github.com/RhmtAndika12/Proyek_Analisis_Data/blob/main/dashboard/all_data.csv' 
     data = pd.read_csv(file_path)
 
     # Menampilkan opsi visualisasi menggunakan radio button
