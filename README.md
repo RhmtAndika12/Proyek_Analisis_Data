@@ -4,9 +4,15 @@ Ini adalah dashboard analisis sewa sepeda yang dibuat oleh Rahmat Yuli Andika me
 
 ## Tentang Kode
 Source RAW Data : https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset
+Hasil Dashboard : https://a9avt3zz4oxpwg6vzktots.streamlit.app/
+Proses Analisis : https://github.com/RhmtAndika12/Proyek_Analisis_Data/blob/main/data/Proyek_Analisis_Data.ipynb
+Streamlit       : https://streamlit.io/
+Pandas          : https://pandas.pydata.org/
+Seaborn         : https://seaborn.pydata.org/
+matplotlib      : https://matplotlib.org/
 
 ### Library yang Digunakan
-- `streamlit` untuk membuat aplikasi web interaktif.
+- `streamlit` untuk membuat aplikasi web.
 - `pandas` untuk manipulasi dan analisis data.
 - `seaborn` dan `matplotlib` untuk visualisasi data.
 
