@@ -8,7 +8,7 @@ def main():
     st.text('Made by Rahmat Yuli Andika')
 
     # Membaca data dari file CSV
-    url = 'https://raw.githubusercontent.com/nama_pengguna/nama_repositori/nama_branch/nama_file.csv'
+    url = 'https://github.com/RhmtAndika12/Proyek_Analisis_Data/blob/main/dashboard/all_data.csv'
 
     # Mengambil data dari URL
     response = requests.get(url)
