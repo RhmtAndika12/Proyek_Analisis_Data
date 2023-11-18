@@ -25,9 +25,9 @@ Ini adalah dashboard analisis sewa sepeda yang dibuat oleh Rahmat Yuli Andika me
 - pip install matplotlib
 - pip install streamlit
 ### Run Streamlit App
-- streamlit run .py pada terminal
+- streamlit run .py 
 ### Cara Menggunakan 
 1. Pastikan Anda memiliki semua library yang diperlukan terinstall.
 2. Jalankan kode menggunakan Python dengan kode :
-  >  streamlit run .py
+  >  streamlit run .py pada terminal
 4. Dashboard akan ditampilkan dalam browser.
