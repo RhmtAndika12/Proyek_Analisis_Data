@@ -15,6 +15,7 @@ Ini adalah dashboard analisis sewa sepeda yang dibuat oleh Rahmat Yuli Andika me
 - `pandas` untuk manipulasi dan analisis data.
 - `seaborn` dan `matplotlib` untuk visualisasi data.
 ### Setup environment
+```
 - conda create --name main-ds python=3.12
 - conda activate main-ds
 - pip install numpy
@@ -23,8 +24,11 @@ Ini adalah dashboard analisis sewa sepeda yang dibuat oleh Rahmat Yuli Andika me
 - pip install matplotlib
 - pip install streamlit
 - pip install jupyter
+```
 ### Run Streamlit App
-- streamlit run .py 
+```
+- streamlit run .py
+```
 ### Cara Menggunakan 
 1. Pastikan Anda memiliki semua library yang diperlukan terinstall.
 2. Jalankan kode menggunakan Python dengan kode :
