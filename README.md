@@ -17,15 +17,15 @@ Ini adalah dashboard analisis sewa sepeda yang dibuat oleh Rahmat Yuli Andika me
 - `seaborn` dan `matplotlib` untuk visualisasi data.
 - `Google Collabolator` untuk notebook analisis data.
 ### Setup environment
-> conda create --name main-ds python=3.12
-> conda activate main-ds
-> pip install numpy
-> pip install pandas
-> pip install seaborn
-> pip install matplotlib
-> pip install streamlit
+- conda create --name main-ds python=3.12
+- conda activate main-ds
+- pip install numpy
+- pip install pandas
+- pip install seaborn
+- pip install matplotlib
+- pip install streamlit
 ### Run Streamlit App
-> streamlit run .py pada terminal
+- streamlit run .py pada terminal
 ### Cara Menggunakan 
 1. Pastikan Anda memiliki semua library yang diperlukan terinstall.
 2. Jalankan kode menggunakan Python dengan kode :
