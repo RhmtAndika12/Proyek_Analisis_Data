@@ -36,7 +36,7 @@ streamlit run dashboard.py
 2. buka kode editor(spt : Visual Studio) untuk menjalankan dashboard.py , pastikan membuka kode editor dengan satu folder dashboard ketika membuka agar ketika membuka dashboard.py, streamlit dapat terbaca dan berjalan,jika tidak maka akan terbaca file not found,untuk menambahkan folder tekan ctrl+k ctrl+o, kemudian cari folder dashboard.
 3. Jalankan kode pada terminal menggunakan Python dengan kode :
   ```
-  > streamlit run dashboard.py
+  streamlit run dashboard.py
   ```
 4. Dashboard akan ditampilkan dalam browser secara lokal.
 
