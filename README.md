@@ -9,7 +9,6 @@ Ini adalah dashboard analisis sewa sepeda yang dibuat oleh Rahmat Yuli Andika me
 5. Pandas          : https://pandas.pydata.org/
 6. Seaborn         : https://seaborn.pydata.org/
 7. matplotlib      : https://matplotlib.org/
-8. Google Colab    : https://colab.research.google.com/
 
 ### Library yang Digunakan
 - `streamlit` untuk membuat aplikasi web.
@@ -24,6 +23,7 @@ Ini adalah dashboard analisis sewa sepeda yang dibuat oleh Rahmat Yuli Andika me
 - pip install seaborn
 - pip install matplotlib
 - pip install streamlit
+- pip install jupyter
 ### Run Streamlit App
 - streamlit run .py 
 ### Cara Menggunakan 
