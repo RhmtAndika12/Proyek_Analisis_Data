@@ -14,7 +14,6 @@ Ini adalah dashboard analisis sewa sepeda yang dibuat oleh Rahmat Yuli Andika me
 - `streamlit` untuk membuat aplikasi web.
 - `pandas` untuk manipulasi dan analisis data.
 - `seaborn` dan `matplotlib` untuk visualisasi data.
-- `Google Collabolator` untuk notebook analisis data.
 ### Setup environment
 - conda create --name main-ds python=3.12
 - conda activate main-ds
